@@ -1,0 +1,30 @@
+site_name: 黄金律法
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    # - navigation.expand
+
+nav:
+  - 首页: index.md
+  - 黄金律法:
+    - Ch1.勇气是一切的开始: 1_brave.md
+    - Ch2.能让你得到一切的秘密: 2_secret.md
+    - Ch3.你需要的只有市场和田地: 3_field.md
+    - Ch4.环境论: 4_env.md
+    - Ch5.人生不是马拉松: 5_life.md
+    - Ch6.我们所处的这个世界: 6_world.md
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
