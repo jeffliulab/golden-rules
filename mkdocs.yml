@@ -15,6 +15,7 @@ nav:
     - Ch4.环境论: 4_env.md
     - Ch5.人生不是马拉松: 5_life.md
     - Ch6.我们所处的这个世界: 6_world.md
+    - Ch7.整合智力结构模型: 7_intelligence.md
 
 markdown_extensions:
   - attr_list
