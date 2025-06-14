@@ -8,14 +8,7 @@ theme:
 
 nav:
   - 首页: index.md
-  - 黄金律法:
-    - Ch1.勇气是一切的开始: 1_brave.md
-    - Ch2.能让你得到一切的秘密: 2_secret.md
-    - Ch3.你需要的只有市场和田地: 3_field.md
-    - Ch4.环境论: 4_env.md
-    - Ch5.人生不是马拉松: 5_life.md
-    - Ch6.我们所处的这个世界: 6_world.md
-    - Ch7.整合智力结构模型: 7_intelligence.md
+
 
 markdown_extensions:
   - attr_list
